@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow: #F4D04E;
+    --gray-950: #111111;
+    --gray-500: #6B6B6B;
+    --white: #ffffff;    
+} 
+
+@font-face {
+    font-family: 'Figtree';
+    src: url(../fonts/static/Figtree-ExtraBold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url(../fonts/static/Figtree-Medium.ttf) format('truetype');
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url(../fonts/Figtree-Italic-VariableFont_wght.ttf) format('truetype');
+    font-weight: light;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url(../fonts/Figtree-VariableFont_wght.ttf) format('truetype');
+    font-weight: light;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Figtree', sans-serif;
+    background: var(--yellow);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+main {
+    
+    background: var(--white);
+    border-radius: 20px;
+    padding: 24px;
+    width: clamp(327px, 50vw, 384px);
+    text-align: left;
+    margin-top: auto;
+    border: 1px solid var(--gray-950);
+}
+
+#illustration {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {    
+    padding: 4px 12px;
+    width: fit-content;
+    background: var(--yellow);
+    border-radius: 4px;
+}
+
+.text-preset-1 {
+    font-weight: bold;
+    font-size: clamp(20px, 3vw, 24px);
+    line-height:  150%;
+}
+
+.text-preset-2 {
+    font-weight: medium;
+    font-size: 16px;
+    line-height:  150%;
+}
+
+.text-preset-3 {
+    font-weight: medium;
+    font-size: 14px;
+    line-height:  150%; 
+}
+
+.text-preset-3-bold {
+    font-weight: bold;
+    font-size: clamp(12px, 2vw, 14px);
+    line-height:  150%;
+}
+
+p {
+    margin: 12px 0;
+}
+
+.gray-500 {
+    color: var(--gray-500);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#avatar {
+    width: 32px;
+}
+
+footer {
+margin-top: auto;
+width: 100%;
+padding: 10px 0;
+background: var(--white);
+}
