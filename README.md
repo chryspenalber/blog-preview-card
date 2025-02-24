@@ -1,6 +1,6 @@
 # Frontend Mentor - Blog Preview Card Solution
 
-This is a solution to the [Blog Preview Card Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-LqzwyPpW).
+This is a solution to the [Blog Preview Card Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/).
 
 ## Table of Contents
 
