@@ -91,4 +91,5 @@ I plan to continue improving my skills in:
 
 - GitHub - [Chrys Penalber](https://github.com/chryspenalber)
 - Frontend Mentor - [@chryspenalber](https://www.frontendmentor.io/profile/chryspenalber)
+- LinkedIn - [Chrystiana Penalber](https://www.linkedin.com/in/chrystiana-penalber/)
 
