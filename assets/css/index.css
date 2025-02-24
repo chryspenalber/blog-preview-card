@@ -8,8 +8,8 @@
     --yellow: #F4D04E;
     --gray-950: #111111;
     --gray-500: #6B6B6B;
-    --white: #ffffff;    
-} 
+    --white: #ffffff;
+}
 
 @font-face {
     font-family: 'Figtree';
@@ -21,14 +21,14 @@
 @font-face {
     font-family: 'Figtree';
     src: url(../fonts/static/Figtree-Medium.ttf) format('truetype');
-    font-weight: medium;
+    font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Figtree';
     src: url(../fonts/Figtree-Italic-VariableFont_wght.ttf) format('truetype');
-    font-weight: light;
+    font-weight: 300;
     font-style: italic;
 }
 
@@ -47,18 +47,23 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 main {
-    
     background: var(--white);
     border-radius: 20px;
     padding: 24px;
     width: clamp(327px, 50vw, 384px);
     text-align: left;
     margin-top: auto;
+    margin-bottom: 10px;
     border: 1px solid var(--gray-950);
+    box-shadow: 8px 8px 0px #000000;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+main:hover {
+    box-shadow: 14px 14px 0px #000000;
 }
 
 #illustration {
@@ -66,35 +71,44 @@ main {
     border-radius: 10px;
 }
 
-h1 {    
+h1 {
     padding: 4px 12px;
     width: fit-content;
     background: var(--yellow);
     border-radius: 4px;
 }
 
+h2 {
+    transition: color 0.3s ease-in-out;
+}
+
+main:hover h2 {
+    color: var(--yellow);
+    cursor: pointer;
+}
+
 .text-preset-1 {
     font-weight: bold;
     font-size: clamp(20px, 3vw, 24px);
-    line-height:  150%;
+    line-height: 150%;
 }
 
 .text-preset-2 {
-    font-weight: medium;
+    font-weight: 500;
     font-size: 16px;
-    line-height:  150%;
+    line-height: 150%;
 }
 
 .text-preset-3 {
-    font-weight: medium;
+    font-weight: 500;
     font-size: 14px;
-    line-height:  150%; 
+    line-height: 150%;
 }
 
 .text-preset-3-bold {
     font-weight: bold;
     font-size: clamp(12px, 2vw, 14px);
-    line-height:  150%;
+    line-height: 150%;
 }
 
 p {
@@ -116,8 +130,17 @@ p {
 }
 
 footer {
-margin-top: auto;
-width: 100%;
-padding: 10px 0;
-background: var(--white);
+    margin-top: auto;
+    width: 100%;
+    padding: 8px 0;
+    background: var(--white);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
