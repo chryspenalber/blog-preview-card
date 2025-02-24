@@ -20,7 +20,7 @@ This is a responsive blog preview card component built using HTML and CSS. The c
 
 ### Screenshot
 
-![Blog Preview Card Screenshot](./assets/images/screenshot-blog-preview-card.png)
+![Blog Preview Card Screenshot](./assets/images/screenshot-blog.png)
 
 ### Links
 
